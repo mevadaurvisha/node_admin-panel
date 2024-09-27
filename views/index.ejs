@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.addons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <!-- endinject -->
     <!-- plugin css for this page -->
     <!-- End plugin css for this page -->
@@ -23,6 +24,7 @@
     <link rel="shortcut icon" href="assets/images/favicon.ico" />
   </head>
   <body>
+    
     <div class="container-scroller">
       <!-- partial:partials/_navbar.ejs -->
       <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
@@ -855,10 +857,15 @@
       </div>
       <!-- page-body-wrapper ends -->
     </div>
+
+    <div class="position-fixed bottom-0 end-0 pe-3 p-2 text-white rounded opacity-75" role="alert" style="background-color: #0d6efd;">
+      👋🏻 welcome <%= data.name %>..!!
+    </div>
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="assets/vendors/js/vendor.bundle.base.js"></script>
     <script src="assets/vendors/js/vendor.bundle.addons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- endinject -->
     <!-- Plugin js for this page-->
     <!-- End plugin js for this page-->
